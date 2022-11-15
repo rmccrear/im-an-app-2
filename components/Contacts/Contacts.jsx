@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react';
 import { Button, Text, View, FlatList } from 'react-native';
 import { styles } from '../../styles';
 import * as ExpoContacts from 'expo-contacts';
+import i18n from '../../translations';
+
+
 
 function Contacts(props) {
   const [contacts, setContacts] = useState([]);
@@ -23,7 +26,7 @@ function Contacts(props) {
   return (
     <View style={ styles.contactContainer }>
       <Text>
-        Contacts...
+        {i18n.t('contacts')}
       </Text>
       <FlatList
         data={contacts}

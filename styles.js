@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'papayawhip',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -16,6 +16,6 @@ export const styles = StyleSheet.create({
   },
   contactContainer: {
     flex: 1,
-    backgroundColor: 'red'
+    backgroundColor: '#fff'
   }
 });
